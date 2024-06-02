@@ -30,7 +30,7 @@ def verificar_hora():
         ahora = datetime.datetime.now().time()
 
         # Imprime la hora actual
-        print("Hora actual:", ahora)
+        #print("Hora actual:", ahora)
 
         # Comparar la hora actual con la hora objetivo
         if ahora.hour == hora_objetivo.hour and ahora.minute == hora_objetivo.minute and ahora.second == hora_objetivo.second:
